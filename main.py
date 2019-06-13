@@ -4,14 +4,13 @@
 
 import os
 import csv
-#Iterate
+
 candidates = []
 number_votes = 0
 vote_counts = []
 election_data = ['1', '2']
 
-#Data path is to election data called [election_data.csv](PyRoll/Resources/election_data.csv).
-# Start For Loop through file
+
 for files in election_data:
     election_dataCSV = csvpath = os.path.join("election_data.csv")
     
